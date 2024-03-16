@@ -27,6 +27,14 @@ body {
       background-blend-mode: color-dodge;
     }
 
+    #a {
+      background-color: $SoftViolet;
+      background-image: url(/img/image-header-desktop.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: color-dodge;
+    }
+
     .firstdiv {
       background-color: $DDesuratedBlue;
       height: 37vh;

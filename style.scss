@@ -19,15 +19,15 @@ body {
 
     .box {
       height: 100%;
-      width: 100%;
+      width: 50%;
+      position: absolute;
+      background-color: $SoftViolet;
     }
 
-    #a {
-      background-color: $SoftViolet;
-      background-image: url(img/image-header-desktop.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-blend-mode: color-dodge;
+    img {
+      height: 100%;
+      width: 100%;
+      display: block;
     }
 
     .firstdiv {

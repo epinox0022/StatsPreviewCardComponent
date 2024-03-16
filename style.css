@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: hsl(233, 47%, 7%);
+  font-family: "lexend deca", sans-serif;
+}
+body main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 50rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body main .box {
+  height: 349px;
+  width: 100%;
+  background-color: hsla(277, 64%, 61%, 0.4);
+  background-image: url(/img/image-header-desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: color-dodge;
+}
+body main .firstdiv {
+  background-color: hsl(244, 38%, 16%);
+  height: 37vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+body main .menu {
+  display: flex;
+  justify-content: space-between;
+}
+body main p {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 14px;
+  font-weight: 300;
+}
+body main .sss {
+  font-size: 13px;
+  font-family: "inter";
+}
+body main h1 {
+  color: hsl(0, 0%, 100%);
+}
+body main h3 {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+body main a {
+  text-decoration: none;
+}

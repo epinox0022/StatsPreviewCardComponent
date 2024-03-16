@@ -1,0 +1,68 @@
+@import "config";
+@import "system";
+
+body {
+  height: 100vh;
+  background-color: $VdarkBlue;
+  font-family: "lexend deca", sans-serif;
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 50rem;
+    // align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    // border: 1px yellow solid;
+
+    .box {
+      height: 349px;
+      width: 100%;
+      background-color: $SoftViolet;
+      background-image: url(/img/image-header-desktop.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-blend-mode: color-dodge;
+    }
+
+    .firstdiv {
+      background-color: $DDesuratedBlue;
+      height: 37vh;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    p {
+      color: hsla(0, 0%, 100%, 0.6);
+      font-size: 14px;
+
+      font-weight: 300;
+    }
+
+    .sss {
+      font-size: 13px;
+      font-family: "inter";
+    }
+
+    h1 {
+      color: hsl(0, 0%, 100%);
+    }
+
+    h3 {
+      color: hsla(0, 0%, 100%, 0.75);
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}

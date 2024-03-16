@@ -21,11 +21,6 @@ body main {
 body main .box {
   height: 349px;
   width: 100%;
-  background-color: hsla(277, 64%, 61%, 0.4);
-  background-image: url(/img/image-header-desktop.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode: color-dodge;
 }
 body main #a {
   background-color: hsla(277, 64%, 61%, 0.4);

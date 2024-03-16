@@ -27,7 +27,7 @@ body main .box {
 body main img {
   height: 100%;
   width: 100%;
-  display: block;
+  overflow: hidden;
 }
 body main .firstdiv {
   background-color: hsl(244, 38%, 16%);

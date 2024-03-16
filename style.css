@@ -30,7 +30,7 @@ body main img {
 }
 body main .firstdiv {
   background-color: hsl(244, 38%, 16%);
-  height: 37vh;
+  height: 100%;
   display: grid;
   justify-content: center;
   align-items: center;

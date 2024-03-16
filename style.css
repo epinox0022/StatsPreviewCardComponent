@@ -19,7 +19,7 @@ body main {
   transform: translate(-50%, -50%);
 }
 body main .box {
-  height: 349px;
+  height: 100%;
   width: 100%;
 }
 body main #a {
